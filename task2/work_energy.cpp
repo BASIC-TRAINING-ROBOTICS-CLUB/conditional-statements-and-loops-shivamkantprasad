@@ -25,4 +25,5 @@ int main(){
     std::cout<<"work done is "<<work<<std::endl;
     delta_KE = calc::change_in_kinetic(f, d);
     std::cout<<"change in kinetic energy is "<<delta_KE<<std::endl;
+    return 0;
 }

@@ -43,6 +43,6 @@ int main(){
     for (int y = 0; y < odd; y++) {
         printf("%d ", arr_odd[y]);
     }
-
+    printf("\n");
     return 0;
 }
