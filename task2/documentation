@@ -1,0 +1,14 @@
+the class calc includes the calculation functions.
+we know that work done on an object is the amount of force on over a distance, i.e. work done  = force x distance
+
+So the function work_done takes two values force on the object and how long the force was applied for.
+The output of the function gives the amount of work done on that object.
+work_done takes two float and outputs a float.
+
+uses: work(float) = calc.work_done(force(float), distance(float));
+
+Now according to work energy theorem the change kinetic energy of the body is equal to the work done on it.
+So the function change_in_kinetic has the same internal logic.
+This function calculates the change in kinetic energy of that object while it a force was acting on it.
+
+uses: delta_KE(float) = calc.change_in_kinetic(force(float), distance(float));
